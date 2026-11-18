@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "source": "Shut-Up-Hermes custom commands",
+  "description": "Only the customized VC/voice commands and /model command for Shut-Up-Hermes",
+  "commands": [
+    {
+      "name": "voice",
+      "description": "Toggle voice reply mode",
+      "options": [
+        {
+          "type": 3,
+          "name": "mode",
+          "description": "Voice mode: join, channel, leave, on, tts, off, status",
+          "required": false,
+          "choices": [
+            {
+              "name": "join",
+              "value": "join"
+            },
+            {
+              "name": "channel",
+              "value": "channel"
+            },
+            {
+              "name": "leave",
+              "value": "leave"
+            },
+            {
+              "name": "on",
+              "value": "on"
+            },
+            {
+              "name": "tts",
+              "value": "tts"
+            },
+            {
+              "name": "off",
+              "value": "off"
+            },
+            {
+              "name": "status",
+              "value": "status"
+            }
+          ]
+        }
+      ],
+      "template": "/voice {mode}"
+    },
+    {
+      "name": "vc",
+      "description": "Toggle voice reply mode (alias for /voice)",
+      "options": [
+        {
+          "type": 3,
+          "name": "mode",
+          "description": "Voice mode: join, channel, leave, on, tts, off, status",
+          "required": false,
+          "choices": [
+            {
+              "name": "join",
+              "value": "join"
+            },
+            {
+              "name": "channel",
+              "value": "channel"
+            },
+            {
+              "name": "leave",
+              "value": "leave"
+            },
+            {
+              "name": "on",
+              "value": "on"
+            },
+            {
+              "name": "tts",
+              "value": "tts"
+            },
+            {
+              "name": "off",
+              "value": "off"
+            },
+            {
+              "name": "status",
+              "value": "status"
+            }
+          ]
+        }
+      ],
+      "template": "/voice {mode}"
+    },
+    {
+      "name": "model",
+      "description": "Show or change the model",
+      "options": [
+        {
+          "type": 3,
+          "name": "name",
+          "description": "Model name. Leave empty to see current.",
+          "required": false
+        }
+      ],
+      "template": "/model {name}"
+    }
+  ]
+}
