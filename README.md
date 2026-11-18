@@ -2,6 +2,10 @@
 
 ![Custom Embeds](embeds_thumbnail.png)
 
+### Embed Demo
+
+![Voice + Model Embed Example](Embed_example.png)
+
 > **Only the customized commands for Shut-Up-Hermes:** `/voice`, `/vc`, `/model`  
 > Full manifest lives in [`Hermes-Slash-Command-Manifest`](https://github.com/Chimthuwu/Hermes-Slash-Command-Manifest-).
 
