@@ -1,5 +1,7 @@
 # Shut Up Hermes — Custom Discord Commands
 
+![Custom Embeds](embeds_thumbnail.png)
+
 > **Only the customized commands for Shut-Up-Hermes:** `/voice`, `/vc`, `/model`  
 > Full manifest lives in [`Hermes-Slash-Command-Manifest`](https://github.com/Chimthuwu/Hermes-Slash-Command-Manifest-).
 
